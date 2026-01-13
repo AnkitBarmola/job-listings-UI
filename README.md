@@ -5,7 +5,11 @@ A professional **Job Listings Interface** built using **React** to practice and 
 This project simulates a real-world job board UI where multiple job cards are rendered dynamically from structured data.
 
 ---
+## Preview
 
+![Project Preview](./project.png)
+
+---
 ## Overview
 
 The primary goal of this project was to understand how modern frontend applications handle repeated UI elements using reusable components and data-driven rendering.
@@ -43,11 +47,6 @@ Each job listing is generated from a JavaScript object and displayed through a r
 
 ---
 
-## Preview
-
-![Project Preview](./project.png)
-
----
 
 ## Purpose
 
