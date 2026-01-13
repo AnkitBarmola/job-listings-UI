@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  background: #0f0f0f;
+}
+
+.parent {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #ffffff;
+  width: 360px;
+  height: 500 px;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- TOP ---------- */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.top button {
+  background: #f4f4f4;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ---------- CENTER ---------- */
+.center {
+  margin-top: 50px;
+}
+
+.center h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.center h3 span {
+  font-weight: 400;
+  color: #888;
+  margin-left: 6px;
+}
+
+.center h2 {
+  font-size: 20px;
+  margin: 8px 0 12px;
+  color: #111;
+}
+
+.center div {
+  display: flex;
+  gap: 10px;
+}
+
+.center h4 {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 10px;
+  background: #f2f2f2;
+  border-radius: 20px;
+  color: #555;
+}
+
+/* ---------- BOTTOM ---------- */
+.bottom {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111;
+}
+
+.bottom p {
+  font-size: 13px;
+  color: #777;
+}
