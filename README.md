@@ -1,16 +1,60 @@
-# React + Vite
+# Job Listings UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional **Job Listings Interface** built using **React** to practice and demonstrate fundamental concepts such as **props**, **array mapping**, and **component-based architecture**.
 
-Currently, two official plugins are available:
+This project simulates a real-world job board UI where multiple job cards are rendered dynamically from structured data.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The primary goal of this project was to understand how modern frontend applications handle repeated UI elements using reusable components and data-driven rendering.
 
-## Expanding the ESLint configuration
+Each job listing is generated from a JavaScript object and displayed through a reusable React component, ensuring clean code, scalability, and maintainability.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Key Features
+
+* Reusable and scalable **Job Card** component
+* Dynamic rendering using **Array.map()**
+* Data flow handled via **props**
+* Clean, modern UI inspired by real job platforms
+* Responsive card layout
+
+---
+
+## Technical Concepts Covered
+
+* Component-based design in React
+* Passing and consuming props
+* Rendering lists efficiently
+* Separation of data and presentation logic
+* JSX structure and styling
+
+---
+
+## Tech Stack
+
+* React
+* JavaScript (ES6+)
+* CSS
+* Vite
+
+---
+
+## Preview
+
+![Project Preview](./project.png)
+
+---
+
+## Purpose
+
+This project was created as part of learning and reinforcing **core React fundamentals**, particularly how to build reusable components and render UI dynamically based on data.
+
+---
+
+## Author
+
+Ankit Barmola
